@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+}
+
+body {
+    background-color: cadetblue;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+header img {
+    height: 100px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+form {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    padding: 16px;
+    gap: 8px;
+}
+
+form input {
+    font-size: 16px;
+    background-color: white;
+    border-bottom: 2px solid black;
+    padding: 8px;
+    width: 300px;
+    height: 32px;
+}
+
+form button {
+    background-color: lime;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 4px;
+    width: 200px;
+    height: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 16px;
+    font-size: 16px;
+}
+
+table td {
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+}
+
+.tbContatos {
+    color: black;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.numeros {
+    padding: 8px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    text-align: center;
+    color: black;
+    width: 100%;
+}
